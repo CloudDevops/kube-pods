@@ -1,5 +1,7 @@
 Python file, Dockerfile and requirements.txt are included. 
 
+pip install -r requirements.txt
+
 #build the Dockerfile
 
 docker build -t k8s-python-app .
